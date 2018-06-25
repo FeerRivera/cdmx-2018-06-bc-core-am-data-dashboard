@@ -5,10 +5,10 @@ var password=document.login.password.value;
 if (usuario=="USUARIO1" && password=="CONTRASEÑA1") {
 window.location="file:///C:/Users/TurnoAM/Documents/proyecto2/cdmx-2018-06-bc-core-am-data-dashboard/src/index2.html";
 }
-if (usuario=="USUARIO2" && password=="CONTRASEÑA2") {
+if (usuario=="Pau" && password=="CONTRASEÑA2") {
 window.location="file:///C:/Users/TurnoAM/Documents/proyecto2/cdmx-2018-06-bc-core-am-data-dashboard/src/index2.html";
 }
-if (usuario=="" && password=="") {
+if (usuario=="Lucile" && password=="contraseña12") {
 window.location="file:///C:/Users/TurnoAM/Documents/proyecto2/cdmx-2018-06-bc-core-am-data-dashboard/src/index2.html";
 }
 }

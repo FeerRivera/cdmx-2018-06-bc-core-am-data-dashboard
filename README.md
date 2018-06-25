@@ -1,3 +1,12 @@
+<!-- Ux Investigación
+Enviamos un formulario a las Training Managers de diferentes sedes con preguntas que nos parecieron que aportaban informacion clave para mejorar su experiencia en el manejo de data. Obtuvimos respuesta de dos de ellas, ambas coinciden en que uno de sus principales problemas es que no tienen la informacion en un mismo archivo y pierden tiempo en condensar la informacion y en procesar los resultados de forma manual. Dicen que por ahora su herramienta principal son spreadsheets y Google forms.
+Estos datos de usuario los necesitan para saber como estan las estudiantes, en que pueden mejorar, para saber si es necesario hacer ajustes en el programa y para dar un feedback más oportuno.
+Ambas coinciden que es necesario un data dashboard que las ayude a visualizar la informacion de manera facil y rapida, sin que ellas tengan que estar subiendo todo de forma manual y que la informacion se mostrara en graficas para que les facilite el trabajo y para que sea mas visual que en tablas.
+
+El producto se va a diseñar en base a sus comentarios, entendemos que debemos hacer que todo sea más practio para que tengan toda la informacion que necesitan muy facilmente. Vamos a implementar graficas sobre la informacion de las alumnas.
+-->
+
+
 # Data Dashboard
 
 ## Preámbulo
@@ -115,7 +124,7 @@ como toda la configuración de dependencias y tests de ejemplo:
 ├── .eslintrc
 ├── .gitignore
 ├── README.md
-├── data 
+├── data
 │   └── laboratoria.json
 ├── package.json
 ├── src
@@ -144,7 +153,7 @@ será parte de tus tareas generar estrategias para encontrar el mejor
 acercamiento y entendimiento del problema.
 
 
-    
+
 La carpeta de `ux/`, incluye un `README` donde vas a encontrar una guía de qué hacer. Te pedimos que ahí mismo documentes ese proceso que realizaste.
 
 ## Entregables
@@ -216,7 +225,7 @@ La interfaz debe permitir al usuario:
     * Poder filtrar estudiantes por estos dos status
     * Filtrar y poder buscar estudiantes por nombre
     * Poder ordenar de manera ascendente y descendente a las estudiantes según
-    porcentaje de completitud 
+    porcentaje de completitud
 * Utiliza la interfaz sin problemas desde distintos tamaños de pantallas:
   móviles, tablets, desktops
 * Realizar pruebas unitarias
@@ -371,7 +380,7 @@ una dirección **relativa**, ejemplo:
 
 ### UX
 
-En esta carpeta vas a encontrar una guía para realizar el proceso de diseño de tu data dashboard, donde se explican las diferentes fases a seguir de manera muy breve, así como los pasos a desarrollar dentro de cada fase. También se deja espacios para que completes este `README` con tu información, pero si deseas agregar más cosas, siéntete en la libertad. Recuerda que este es un proceso creativo que responde a la data recopilada. 
+En esta carpeta vas a encontrar una guía para realizar el proceso de diseño de tu data dashboard, donde se explican las diferentes fases a seguir de manera muy breve, así como los pasos a desarrollar dentro de cada fase. También se deja espacios para que completes este `README` con tu información, pero si deseas agregar más cosas, siéntete en la libertad. Recuerda que este es un proceso creativo que responde a la data recopilada.
 
 ### Tests
 
@@ -439,12 +448,12 @@ Features/características extra sugeridas:
 
 ## Entrega
 
-En este proyecto deberás trabajar colaborativamente. Para ello, una de las integrantes del equipo deberá forkear el repositorio del cohort y la otra integrante **deberá hacer un fork del repositorio de su compañera**. Luego de esto, deberás [configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/) un `remote` hacia el repositorio del cual hiciste el fork. 
+En este proyecto deberás trabajar colaborativamente. Para ello, una de las integrantes del equipo deberá forkear el repositorio del cohort y la otra integrante **deberá hacer un fork del repositorio de su compañera**. Luego de esto, deberás [configurar](https://help.github.com/articles/configuring-a-remote-for-a-fork/) un `remote` hacia el repositorio del cual hiciste el fork.
 
-Para mandar cambios desde un repositorio forkeado al original debes crear un [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) y el propietario del repositorio original recibirá una notificación para [revisar el pull request](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) y [aceptar los cambios](https://help.github.com/articles/merging-a-pull-request/). 
+Para mandar cambios desde un repositorio forkeado al original debes crear un [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) y el propietario del repositorio original recibirá una notificación para [revisar el pull request](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) y [aceptar los cambios](https://help.github.com/articles/merging-a-pull-request/).
 
 Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañera:
-* En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de trabajo con dos ramas principales: 
+* En lugar de trabajar en una sola rama o _branch_, puedes organizar el flujo de trabajo con dos ramas principales:
   * `master`: rama que contiene las funcionalidades terminadas y sin errores.
   * `develop`: rama dónde integrarás las funcionalidades conforme las vayas desarrollando.
 
@@ -457,7 +466,7 @@ Aquí algunas recomendaciones para que organices mejor el trabajo con tu compañ
 
 * Un [fork](https://help.github.com/articles/fork-a-repo/) es una copia de un repositorio en el que puedes experimentar sin afectar al repositorio original. Generalmente se usa para proponer cambios al proyecto de alguien más o para usar el proyecto de otra persona como punto de partida para una idea que quieras realizar.
 
-* Un [pull request](https://help.github.com/articles/about-pull-requests/) (PR) te permite solicitar la inclusión de cambios al repositorio original (tu punto de partida) en GitHub. Cuando un PR es abierto, este permite solicitar, discutir y revisar los cambios realizados con todos los colaboradores y agregar otros commits antes de que los cambios sean incluidos al repositorio original. 
+* Un [pull request](https://help.github.com/articles/about-pull-requests/) (PR) te permite solicitar la inclusión de cambios al repositorio original (tu punto de partida) en GitHub. Cuando un PR es abierto, este permite solicitar, discutir y revisar los cambios realizados con todos los colaboradores y agregar otros commits antes de que los cambios sean incluidos al repositorio original.
 
 
 
@@ -544,7 +553,7 @@ Esperamos que alcances al menos el nivel 2 en todas tus habilidades blandas.
   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
   aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Una de las integrantes del equipo debe realizar un :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo. La otra integrante del equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote` hacia el mismo. 
+del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo. La otra integrante del equipo deber hacer un fork **del repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote` hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
   tu _fork_ a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm
