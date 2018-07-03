@@ -7,7 +7,7 @@ function cuenta(log) {
     let user = data.querySelector('input[type="text"]')
     let password = data.querySelector('input[type="password"]')
     if (user.value === "lucile@laboratoria.la" && password.value === "123") {
-        window.location.href = "datadash.html"
+        window.location.href = "index.html"
     } else {
         alert("Ingresa una cuenta válida")
     }
