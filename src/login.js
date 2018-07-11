@@ -9,6 +9,6 @@ function cuenta(log) {
     if (user.value === "lucile@laboratoria.la" && password.value === "123") {
         window.location.href = "index.html"
     } else {
-        alert("Ingresa una cuenta válida")
+        alert("Ingresa una cuenta válida usuario: lucile@laboratoria.la contraseña:123")
     }
 }
